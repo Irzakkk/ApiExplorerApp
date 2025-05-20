@@ -1,22 +1,38 @@
 # Public APIs Explorer (React Native)
 
-A mobile app built using **React Native + TypeScript** that fetches and displays public APIs from [APIs.guru](https://apis.guru/).
+## Running the Project
 
+This React Native app was developed and tested using [Expo](https://expo.dev/) and can be easily run on your device using **Expo Go**.
+
+### Steps to run:
+
+1. Install Expo CLI globally if you want to run locally:
+npm install -g expo-cli
+
+markdown
+Copy
+Edit
+
+2. Clone the repository:
+https://github.com/Irzakkk/ApiExplorerApp.git
+-> Navigate to the project directory: cd ApiExplorerApp
+
+
+3. Install dependencies:
+npm install
+
+
+5. Start the Expo development server:
+npm start
+
+
+5. Scan the QR code displayed in the terminal or browser with the **Expo Go** app on your Android/iOS device.
+
+---
+
+If you’re not using Expo, you might need to set up native builds for Android/iOS instead.
 ## 🔧 Setup Instructions
 
-1. Clone the repository: https://github.com/Irzakkk/ApiExplorerApp.git
-2.  Navigate to the project directory: cd ApiExplorerApp
-3.   Install dependencies:
-npm install
-4. Run the app:
-- For Android:
-  ```
-  npx react-native run-android
-  ```
-- For iOS:
-  ```
-  npx react-native run-ios
-  ```
 ## Folder Structure
 
 /App.tsx
